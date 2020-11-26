@@ -1,0 +1,72 @@
+#body{
+	background-color: powderblue;
+}
+
+#para_head{
+	color: red;
+	background-color: lime;
+}
+
+h1{
+	text-align: center;
+	font-size: 36px;
+	color: purple;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+p{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: gray;
+	font-family: Helvetica;
+}
+
+#para1, #para2, #para3, #para4 {
+	font-size: 22px;
+}
+
+.row {
+	width: 100%
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3{
+		float: left;
+		border: 1px solid green;
+	}
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%
+  }
+  .col-lg-3 {
+  	width: 33.33%
+
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3{
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+
+
+
+
